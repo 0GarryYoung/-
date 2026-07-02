@@ -1,0 +1,43 @@
+# Keil build output
+*.axf
+*.hex
+*.crf
+*.d
+*.o
+*.lnp
+*.sct
+*.map
+*.dep
+*.htm
+*.build_log.htm
+*.lst
+
+# Keil user-specific files
+*.uvguix.*
+*.uvoptx
+*.dbgconf
+
+# Keil output directories
+Output/
+Listing/
+DebugConfig/
+RTE/
+
+# STM32CubeMX backup
+.mxproject
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Python/IDE
+__pycache__/
+.vscode/
+.idea/
+*.code-workspace
